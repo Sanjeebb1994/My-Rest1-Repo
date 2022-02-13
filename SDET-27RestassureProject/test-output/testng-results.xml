@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TY_PROJ_1804]]>
+    </line>
+    <line>
+      <![CDATA[Data Creation Sucessful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-13T11:58:00 IST" name="Default suite" finished-at="2022-02-13T11:58:04 IST" duration-ms="4069">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T11:58:00 IST" name="Default test" finished-at="2022-02-13T11:58:04 IST" duration-ms="4069">
+      <class name="com.crm.perfomoperation.CreateTestDataAndVerifyDataBase">
+        <test-method is-config="true" signature="openDB()[pri:0, instance:com.crm.perfomoperation.CreateTestDataAndVerifyDataBase@71def8f8]" started-at="2022-02-13T11:57:59 IST" name="openDB" finished-at="2022-02-13T11:58:00 IST" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDB -->
+        <test-method signature="creteResourceAndVerifyDB()[pri:0, instance:com.crm.perfomoperation.CreateTestDataAndVerifyDataBase@71def8f8]" started-at="2022-02-13T11:58:00 IST" name="creteResourceAndVerifyDB" finished-at="2022-02-13T11:58:04 IST" duration-ms="4009" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_1804]]>
+            </line>
+            <line>
+              <![CDATA[Data Creation Sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- creteResourceAndVerifyDB -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.perfomoperation.CreateTestDataAndVerifyDataBase@71def8f8]" started-at="2022-02-13T11:58:05 IST" name="closeDB" finished-at="2022-02-13T11:58:05 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.perfomoperation.CreateTestDataAndVerifyDataBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
